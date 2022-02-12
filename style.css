@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+:root {
+    --heading-color: #22292f;
+    --paragraph-color: #5c6b79;
+    --highlite-color: #0fccce;
+    --buttonhover-color: #109696;
+
+}
+
+
+
+
+*{
+ padding: 0;
+ margin: 0;   
+ font-family: 'Poppins', sans-serif;
+
+}
+
+
+.navbar{
+    padding: 8px;
+    background-color: var(--paragraph-color);
+    color: white;
+    font-size: 0.6rem;
+}
+
+p{
+    color: var(--paragraph-color);
+    font-size: 1rem;
+    display: flex;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.container{
+    padding: 20px;
+}
+
+.heading{
+    color: var(--heading-color);
+    font-size: 0.8rem;
+    font-weight: bold;
+
+}
+
+
+.button{
+    background-color: var(--highlite-color);
+    width: 60%;
+    height:60px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 40px auto;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.button:hover{
+    background-color: var(--buttonhover-color);
+}
+
+
+.center{
+    text-align: center;
+}
+
+span{
+    padding: 20px;
+    font-size: 1.4rem;
+    color: var(--highlite-color);
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+lottie-player{
+    flex: none;
+}
